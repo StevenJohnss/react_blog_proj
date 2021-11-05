@@ -1,0 +1,15 @@
+.Img{ padding-bottom: 4vw;}
+.vid{ padding-bottom: 4vw;}
+.filesize{float: right;}
+.myNav{padding-top: 10px; padding-bottom: 10px;}
+.Mobimg1{ margin: 0px; padding: 0px;}
+.Mobimg2{ margin: 0px; padding: 0px;}
+@media only screen and (max-width: 600px) {
+   
+   .Img{ padding-bottom: 16vw; margin-top: -10px;}
+   .vid{ padding-bottom: 16vw; margin-top: -14px;}
+   .myNav{  padding-top: 0px; padding-bottom: 0px;}
+   .filesize{float: none;}
+   .Mobimg1{ margin-top: 30px;  background-size:contain;  height: 50vw; background-image: url('../assets/Apple-iPhoneX-w-Template-Queries.jpg'); background-repeat: no-repeat; }
+   .Mobimg2{ margin-top: 30px;  background-size:contain;  height: 50vw; background-image: url('../assets/Apple-iPhoneX-TextSmall.jpg'); background-repeat: no-repeat; }
+  }
