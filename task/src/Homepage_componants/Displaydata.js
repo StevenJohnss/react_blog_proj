@@ -39,8 +39,9 @@ const Displaydata = (props)=> {
   const handleChange = (event) => {
     const val=event.target.value;
     setsort(val);
+    let mydata=[];
    if( val==1){
-    const mydata= props.data.map((d,i)=>  props.data[(props.data.length-1 )- i] );
+    mydata= displaydata.map((d,i)=>  displaydata[(displaydata.length-1 )- i] );
     setdisplaydata([...mydata])
    
    }
@@ -189,4 +190,6 @@ return(
 </>
 )
 };
+
+
 export default Displaydata;

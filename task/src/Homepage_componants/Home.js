@@ -144,7 +144,7 @@ const  Home =()=> {
       
         
         <br/><br/>
-      <Displaydata data={data} />
+      <Displaydata data={data} test={{name:"stev"}} />
 
       
    </div>
